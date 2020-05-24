@@ -15,6 +15,8 @@ public class Main {
         Personeel personeel = new Kantoorwerknemer();
         personeel.personeelsBestand();
 
-
+        //haalt gegevens van de Buffalo.
+        Dier dier = new Buffallo();
+        dier.dierGegevens();
     }
 }

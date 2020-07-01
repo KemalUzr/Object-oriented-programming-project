@@ -1,8 +1,7 @@
 package com.company;
 
-//Longclass is hier ook vermeden.
 public class voedingSchema {
-    static private voedingSchema instance;
+    private static voedingSchema instance;
 
     private voedingSchema(){
         System.out.println(welkevoedingGrootKooi());

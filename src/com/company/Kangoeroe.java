@@ -1,6 +1,7 @@
 package com.company;
-//Long class wordt hier vermeden omdat de class Kangoeroe en extends is van class Dier.
-//Hier wordt waarde gegeven aan de gegevens van de Kangoeroe.
+//Long class wordt hier vermeden omdat de class Kangoeroe een extends is van class Dier.
+
+
 public class Kangoeroe extends Dier {
     @Override
     public String soort() {

@@ -1,8 +1,9 @@
 package com.company;
 
-//interface class met factory pattern.
+//interface class
 public interface Kooi {
-    //hier door vermijnd je code smell lange methode, in 1 methode vraag je alles aan.
+    //hier door vermijnd je code smell large class, want ik implementeer de methodes niet in DEZE class.
+    //ik vermijd duplicate code omdat, de subclasses van kooi hun eigen implentaties hebben.
     public int lengteCM();
     public int breedteCM();
     public int hoogteCM();

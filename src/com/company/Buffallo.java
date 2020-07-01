@@ -1,5 +1,6 @@
 package com.company;
-
+//hier heb ik large class vermeden omdat ik in 'Dier' mijn template methode heb staan, waardoor ik het niet opnieuw in buffalo hoef te schrijven.
+//Hier implementeer ik de methodes uit dier.
 public class Buffallo extends Dier {
     @Override
     public String soort() {

@@ -1,5 +1,6 @@
 package com.company;
 
+//Hier wordt waarde gegeven aan de gegevens van de Leeuw.
 public class Leeuw extends Dier {
     @Override
     public String soort() {

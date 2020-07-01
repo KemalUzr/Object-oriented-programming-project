@@ -1,6 +1,6 @@
 package com.company;
 
-public class Kantoorwerknemer extends Personeel{
+public class Kantoorwerknemer extends Personeelslid {
     @Override
     void naam() {
         System.out.println("naam: Gert de Berg");

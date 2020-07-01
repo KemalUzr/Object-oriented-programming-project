@@ -6,4 +6,5 @@ public interface Kooi {
     public int lengteCM();
     public int breedteCM();
     public int hoogteCM();
+    public String voedingSchema();
 }

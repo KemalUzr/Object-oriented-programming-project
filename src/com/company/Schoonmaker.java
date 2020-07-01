@@ -1,6 +1,6 @@
 package com.company;
 
-public class Schoonmaker extends Personeel {
+public class Schoonmaker extends Personeelslid {
     @Override
     void naam() {
         System.out.println("naam: Jan de Jong");

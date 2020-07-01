@@ -1,6 +1,6 @@
 package com.company;
 
-public abstract class Personeel {
+public abstract class Personeelslid {
     abstract void naam();
     abstract void persooneelID();
     abstract void talen();

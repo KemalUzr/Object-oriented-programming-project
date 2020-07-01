@@ -3,12 +3,12 @@ package com.company;
 public class voedingSchema {
     private static voedingSchema instance;
 
-    private voedingSchema(){
+    private voedingSchema() {
         System.out.println(welkevoedingGrootKooi());
     }
 
-    public static voedingSchema getInstance(){
-        if(instance == null){
+    public static voedingSchema getInstance() {
+        if (instance == null) {
             instance = new voedingSchema();
         }
         return instance;
